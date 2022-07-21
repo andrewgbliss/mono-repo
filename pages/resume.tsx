@@ -25,8 +25,10 @@ const Resume: NextPage = () => {
         <Grid container spacing={2}>
           <Grid item xs={12} sm={5} md={4} lg={3}>
             <Paper>
-              <Gravatar email={resume.email} size={256} />
-              <H3 py={1}>{resume.name}</H3>
+              <Box textAlign="center">
+                <Gravatar email={resume.email} size={256} />
+              </Box>
+              <H4 py={1}>{resume.name}</H4>
               <Caption color="textSecondary" gutterBottom>
                 {resume.bio}
               </Caption>
@@ -34,16 +36,20 @@ const Resume: NextPage = () => {
                 items={[
                   {
                     icon: <HomeIcon />,
-                    text: `${resume.address.city}, ${resume.address.state}`,
+                    text: (
+                      <Caption>
+                        {resume.address.city}, {resume.address.state}
+                      </Caption>
+                    ),
                   },
                   {
                     icon: <EmailIcon />,
-                    text: resume.email,
+                    text: <Caption>{resume.email}</Caption>,
                     copyText: resume.email,
                   },
                   {
                     icon: <PhoneIcon />,
-                    text: resume.phone,
+                    text: <Caption>{resume.phone}</Caption>,
                     copyText: resume.phone,
                   },
                 ]}
@@ -54,7 +60,11 @@ const Resume: NextPage = () => {
                 items={[
                   {
                     icon: <DateRangeIcon />,
-                    text: `${resume.education.from} to ${resume.education.to}`,
+                    text: (
+                      <Caption>
+                        {resume.education.from} to {resume.education.to}
+                      </Caption>
+                    ),
                   },
                 ]}
               />

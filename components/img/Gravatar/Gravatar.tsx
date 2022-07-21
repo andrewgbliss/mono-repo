@@ -24,16 +24,7 @@ const Gravatar: React.FC<Props> = ({
   const formattedEmail = email.trim().toLowerCase();
   const hash = md5(formattedEmail, { encoding: 'binary' });
   const src = `https://www.gravatar.com/avatar/${hash}?${query}`;
-  return (
-    <Image
-      src={src}
-      alt=""
-      width={size}
-      height={size}
-      layout="responsive"
-      priority
-    />
-  );
+  return <Image src={src} alt="" width={size} height={size} priority />;
 };
 
 export default Gravatar;
