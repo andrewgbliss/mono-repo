@@ -35,14 +35,9 @@ export const resume = {
   name: 'Andrew Bliss',
   email: 'andrewgbliss@gmail.com',
   phone: '801.440.5615',
-  bio: `Seasoned, forward-looking Software Engineer with 15+ years experience
-creating and executing software solutions to enhance business
-productivity. Highly experienced in all aspects of the software
-development lifecycle and end-to-end project management, from concept
-to development and delivery. Consistently recognized as a hands-on and
-competent leader, skilled at coordinating cross-functional teams in a
-fast-paced, deadline-driven environment to steer timely project
-completion within budgetary constraints.`,
+  bio: `Senior Software Engineer using the React, Node, Postgres stack.
+7+ years experience creating and executing software solutions to enhance business
+productivity.`,
   address: {
     city: 'Draper',
     state: 'UT',
@@ -59,7 +54,7 @@ completion within budgetary constraints.`,
       company: 'nth-child consulting',
       location: 'Orem, UT',
       from: 'Dec, 2017',
-      to: 'Now',
+      to: 'Current',
       skills: ['React', 'Node', 'Postgres'],
       bulletpoints: [
         'End to end project management. Creating features, tasks, and training for junior devs.',
