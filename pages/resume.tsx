@@ -1,9 +1,9 @@
 import type { NextPage } from 'next';
 import { Grid, Box, Divider, Link } from '@mui/material';
-import Theme from '../components/theme/Theme';
-import { Paper, List, Chips } from '../components/containers';
+import Theme from '../components/mui/theme/Theme';
+import { Paper, List, Chips } from '../components/mui/containers';
 import Gravatar from '../components/img/Gravatar';
-import { H3, H4, H6, Caption, Body2 } from '../components/typography';
+import { H3, H4, H6, Caption, Body2 } from '../components/mui/typography';
 import { resume } from '../lib/resume';
 import {
   Home as HomeIcon,
