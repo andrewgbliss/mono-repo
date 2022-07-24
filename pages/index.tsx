@@ -64,6 +64,13 @@ const Home: NextPage = () => {
                       >
                         Music
                       </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/beta-access"
+                      >
+                        Beta Access
+                      </a>
                     </div>
                   </FadeIn>
                 </>
