@@ -1,0 +1,243 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BetaAccess unchanged 1`] = `
+<div>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1p21r3f-MuiPaper-root-MuiAppBar-root"
+    style="background-color: rgba(0, 0, 0, 0.5);"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container css-1xzqqmo-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-1g55bl9"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+            >
+              Website Name
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item css-13i4rnv-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-19midj6"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root"
+            >
+              <div
+                class="MuiBox-root css-1iuj5ih"
+              >
+                <a
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-j6didr-MuiButtonBase-root-MuiButton-root"
+                  href="#home"
+                  style="color: rgb(255, 255, 255);"
+                  tabindex="0"
+                >
+                  Home
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-1iuj5ih"
+              >
+                <a
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-j6didr-MuiButtonBase-root-MuiButton-root"
+                  href="#about"
+                  style="color: rgb(255, 255, 255);"
+                  tabindex="0"
+                >
+                  About
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-1iuj5ih"
+              >
+                <a
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-j6didr-MuiButtonBase-root-MuiButton-root"
+                  href="#features"
+                  style="color: rgb(255, 255, 255);"
+                  tabindex="0"
+                >
+                  Features
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-1iuj5ih"
+              >
+                <a
+                  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-j6didr-MuiButtonBase-root-MuiButton-root"
+                  href="#pricing"
+                  style="color: rgb(255, 255, 255);"
+                  tabindex="0"
+                >
+                  Pricing
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main
+    class="css-1ju971t"
+  >
+    <div
+      class="MuiBox-root css-qv6wu1"
+    />
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-6 css-yjcn9t-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-4 css-rn1535-MuiGrid-root"
+      >
+        <span
+          style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+        >
+          <span
+            style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+          >
+            <img
+              alt=""
+              aria-hidden="true"
+              src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27250%27%20height=%27500%27/%3e"
+              style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+            />
+          </span>
+          <img
+            alt=""
+            data-nimg="intrinsic"
+            decoding="async"
+            src="/_next/image?url=%2Fimg%2Fabybyo-phone.png&w=640&q=75"
+            srcset="/_next/image?url=%2Fimg%2Fabybyo-phone.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2Fabybyo-phone.png&w=640&q=75 2x"
+            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+          />
+        </span>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-8 css-1q7fh4j-MuiGrid-root"
+      >
+        <div
+          class="MuiBox-root css-0"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 css-1qz17ui-MuiPaper-root"
+          >
+            <div
+              class="MuiBox-root css-blmbu9"
+            >
+              <h3
+                class="MuiBox-root css-1ueoylx"
+              >
+                Learning just became easier.
+              </h3>
+              <div
+                class="MuiBox-root css-vhlblh"
+              >
+                <p>
+                  Create your own study path and improve your knowledge in any subject.
+                </p>
+                <p>
+                  Join any classroom, ask questions, download any lesson, improve at your own pace.
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-gk3e2y"
+              >
+                <form>
+                  <div
+                    class="MuiBox-root css-0"
+                  >
+                    <div
+                      class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
+                    >
+                      <label
+                        class="MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-outlined MuiFormLabel-root MuiFormLabel-colorPrimary css-10q968v-MuiFormLabel-root-MuiInputLabel-root"
+                        data-shrink="false"
+                        for=":r0:"
+                        id=":r0:-label"
+                      >
+                        Email Address
+                      </label>
+                      <div
+                        class="MuiOutlinedInput-root MuiInputBase-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl css-tv8jey-MuiInputBase-root-MuiOutlinedInput-root"
+                      >
+                        <input
+                          aria-invalid="false"
+                          class="MuiOutlinedInput-input MuiInputBase-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+                          id=":r0:"
+                          type="text"
+                          value=""
+                        />
+                        <fieldset
+                          aria-hidden="true"
+                          class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+                        >
+                          <legend
+                            class="css-1ftyaf0"
+                          >
+                            <span>
+                              Email Address
+                            </span>
+                          </legend>
+                        </fieldset>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="MuiBox-root css-kz8l04"
+                  >
+                    <button
+                      class="MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButtonBase-root  css-14v2k22-MuiButtonBase-root-MuiButton-root"
+                      tabindex="0"
+                      type="button"
+                    >
+                      Sign Up For Beta Access
+                      <span
+                        class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                      />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <div
+    class="MuiGrid-root MuiGrid-container css-1lym95h-MuiGrid-root"
+    style="background-color: rgb(3, 169, 244);"
+  >
+    <div
+      class="MuiBox-root css-1e8gd1l"
+    >
+      Copyright © 
+      2022
+       Website
+    </div>
+  </div>
+</div>
+`;
