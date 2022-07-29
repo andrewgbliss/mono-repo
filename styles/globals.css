@@ -3,6 +3,12 @@
 @tailwind utilities;
 
 @layer components {
+
+  .full-screen {
+    @apply w-screen h-screen;
+    max-width: 100%;
+  }
+
 	/* Tag components */
   html. body {
     @apply text-secondary;
@@ -124,5 +130,42 @@
     to {
       opacity: 1;
     }
+  }
+
+  .label {
+    @apply text-purple-400 text-center rounded-xl border-8 border-pink-300 border-dashed p-4;
+  }
+  .hover-expand {
+    @apply transition duration-1000 ease-in-out transform hover:scale-150 hover:-translate-y-1 hover:rotate-0;
+  }
+  .expanded-photo {
+    @apply z-50;
+  }
+
+  .heart {
+    @apply scale-50;
+    position: relative;
+    width: 100px;
+    height: 90px;
+  }
+
+  .heart:before,
+  .heart:after {
+    @apply bg-purple-400;
+    position: absolute;
+    content: '';
+    left: 50px;
+    top: 0;
+    width: 50px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+  }
+
+  .heart:after {
+    left: 0;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
   }
 }

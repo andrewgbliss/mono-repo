@@ -71,6 +71,34 @@ const Home: NextPage = () => {
                       >
                         Beta Access
                       </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/startup"
+                      >
+                        Startup
+                      </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/hello-world"
+                      >
+                        Hello World
+                      </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/swapi"
+                      >
+                        Swapi
+                      </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/memories"
+                      >
+                        Memories
+                      </a>
                     </div>
                   </FadeIn>
                 </>
