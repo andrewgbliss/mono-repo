@@ -16,9 +16,9 @@ const Home: NextPage = () => {
   };
 
   return (
-    <FadeIn>
+    <FadeIn show>
       <Screen>
-        <FadeIn>
+        <FadeIn show>
           <Paper className="w-96 bg-white">
             <div className="p-2 flex flex-col gap-2">
               <FadeIn wait={2000}>
@@ -42,14 +42,14 @@ const Home: NextPage = () => {
               </FadeIn>
               {showLinks && (
                 <>
-                  <FadeIn>
-                    <h2>
+                  <FadeIn show>
+                    <h4>
                       It Worked! You got past my security. You are a true hacker
                       now.
-                    </h2>
+                    </h4>
                   </FadeIn>
                   <FadeIn wait={5000}>
-                    <div className="flex gap-2">
+                    <div className="flex flex-col gap-2">
                       <a
                         className="btn btn-primary"
                         target="_blank"
