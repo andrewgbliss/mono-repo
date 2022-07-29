@@ -1,3 +1,29 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders homepage unchanged 1`] = `<div />`;
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="transition ease-out duration-1000 transform scale-95 opacity-0"
+  >
+    <div
+      class="font-mono flex flex-wrap flex-col h-screen"
+    >
+      <div
+        class="bg-blue-200 flex-grow flex justify-center items-center"
+      >
+        <div
+          class="transition ease-out duration-1000 transform scale-95 opacity-0"
+        >
+          <div
+            class="shadow-2xl rounded-lg p-2 w-96 bg-white"
+          >
+            <div
+              class="p-2 flex flex-col gap-2"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
