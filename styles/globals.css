@@ -106,10 +106,10 @@
     @apply transition duration-500 ease-in-out transform hover:-translate-y-2 bg-secondary text-white hover:text-white inline-block font-medium py-2 px-8 rounded-full text-lg;
   }
   .btn {
-    @apply transition duration-500 ease-in-out transform hover:-translate-y-2 bg-white text-secondary hover:bg-secondary hover:text-white border border-secondary inline-block font-medium py-2 px-8 rounded-full text-lg;
+    @apply transition duration-500 ease-in-out transform hover:-translate-y-2 text-secondary hover:bg-secondary hover:text-white inline-block font-medium py-2 px-8 rounded-full text-lg;
   }
   .btn-social-media {
-    @apply transition duration-500 ease-in-out transform hover:-translate-y-2 bg-white text-secondary text-xl px-2 py-1 rounded-full hover:bg-primary hover:text-white inline-block;
+    @apply transition duration-500 ease-in-out transform hover:-translate-y-2 text-secondary text-xl px-2 py-1 rounded-full hover:bg-primary hover:text-white inline-block;
   }
 
   /* Animations */
@@ -142,6 +142,57 @@
     @apply z-50;
   }
 
+  .bg-marketing {
+    @apply bg-cover bg-no-repeat bg-center;
+    background-image: linear-gradient(
+        rgba(18, 26, 46, 0.9),
+        rgba(18, 26, 46, 0.3)
+      ),
+      url(/img/marketing/cover2.jpg);
+  }
+
+  /* Pages */
+  .page {
+    @apply md:py-16 bg-gray-100;
+  }
+
+  /* Paper */
+  .paper {
+    @apply rounded-xl border shadow-2xl;
+  }
+  .paper-form {
+    @apply paper w-full md:w-96 mx-auto px-16 py-8 bg-gray-50;
+  }
+
+  /* Flash Card */
+  .flip-card {
+    perspective: 1000px;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card-flip {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    position: absolute;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+  }
+
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
+
+  /* Memories */
   .heart {
     @apply scale-50;
     position: relative;
