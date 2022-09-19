@@ -9,41 +9,6 @@
     max-width: 100%;
   }
 
-	/* Tag components */
-  html. body {
-    @apply text-secondary;
-  }
-  section {
-    @apply container sm:mx-auto pad-thick;
-  }
-  h1 {
-    @apply text-6xl leading-none font-bold;
-  }
-  h2 {
-    @apply text-5xl leading-none font-bold;
-  }
-  h3 {
-    @apply text-4xl leading-none font-bold;
-  }
-  h4 {
-    @apply text-3xl leading-none font-bold;
-  }
-  h5 {
-    @apply text-2xl leading-none font-bold;
-  }
-  h5 {
-    @apply text-xl leading-none font-bold;
-  }
-  p {
-    @apply text-lg font-light;
-  }
-  input {
-    @apply shadow bg-transparent appearance-none border border-primary rounded w-full py-2 px-3 leading-tight focus:outline-none;
-  }
-  textarea {
-    @apply shadow bg-transparent appearance-none border border-primary rounded w-full py-2 px-3 leading-tight focus:outline-none;
-  }
-
 	 /* Table */
 	.tbl {
 		@apply table text-sm text-left;

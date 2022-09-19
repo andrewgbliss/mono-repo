@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { NextPage } from 'next';
-import { Paper, Screen } from '../components/tailwind/containers';
+import { Paper } from '../components/tailwind/containers';
 import Image from 'next/image';
 
 const songs = new Map();
