@@ -2,7 +2,7 @@ import strings from '../lib/localization';
 import { useLocalStorage } from './useLocalStorage';
 
 export function useLanguage() {
-  const [language, setLanguage] = useLocalStorage<string>('language', 'en');
+  const [language, setLanguage] = useLocalStorage('language', 'en');
 
   // setLanguage('en');
 

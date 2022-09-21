@@ -22,7 +22,7 @@ import {
 } from '@mui/material';
 import { Menu as MenuIcon, AccountCircle } from '@mui/icons-material';
 import Theme from '../components/mui/theme/Theme';
-import { useFirebase } from '../hooks/useFirebase';
+import { useFirebase } from '../lib/bid-calculator/firebase';
 import { useLanguage } from '../hooks/useLanguage';
 import { useDarkMode } from '../hooks/useDarkMode';
 
@@ -109,7 +109,8 @@ function Drawer() {
 }
 
 function User() {
-  const { user } = useFirebase();
+  const user: any = {};
+  // const { user } = useFirebase();
   const { strings } = useLanguage();
   if (!user) {
     return (
@@ -129,7 +130,7 @@ function User() {
         >
           <AccountCircle />
         </IconButton>
-        <Box pl={1}>{user.displayName}</Box>
+        <Box pl={1}>{user?.displayName}</Box>
       </>
     );
   }

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { firebase } from '../lib/firebase';
+import { firebase } from './firebase';
 
 interface FirebaseUser {
   uid: string;
