@@ -7,7 +7,7 @@ const Login: NextPage = () => {
     <div className="full-screen page">
       <div className="paper-form">
         <form>
-          <h6 className="text-center">Login to Abybyo</h6>
+          <h6 className="text-center">Login to Webstie</h6>
           <div className="py-6">
             <TextField
               id="email"

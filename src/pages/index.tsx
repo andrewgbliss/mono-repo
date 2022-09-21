@@ -99,6 +99,27 @@ const Home: NextPage = () => {
                       >
                         Memories
                       </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/bid-calculator"
+                      >
+                        Bid Calculator
+                      </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/login"
+                      >
+                        Login
+                      </a>
+                      <a
+                        className="btn btn-primary"
+                        target="_blank"
+                        href="/marketing"
+                      >
+                        Marketing
+                      </a>
                     </div>
                   </FadeIn>
                 </>

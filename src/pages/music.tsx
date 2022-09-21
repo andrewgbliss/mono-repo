@@ -43,8 +43,8 @@ const Music: NextPage = () => {
                       key={k}
                       className={
                         selectedTrack === k
-                          ? 'bg-black text-white cursor-pointer'
-                          : 'cursor-pointer hover:bg-black hover:text-white'
+                          ? 'bg-black text-white cursor-pointer px-2'
+                          : 'cursor-pointer hover:bg-black hover:text-white px-2'
                       }
                       onClick={() => handleClick(k)}
                     >

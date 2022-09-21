@@ -37,7 +37,7 @@ const Register: NextPage = () => {
           </div>
           <div className="flex items-center pb-6">
             <input id="newsletter" type="checkbox" />
-            <label className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">
+            <label className="ml-2 text-sm font-medium text-gray-900 dark:text-gray-900">
               Newsletter?
             </label>
           </div>
